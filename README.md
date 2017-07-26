@@ -1,0 +1,1 @@
+A personal C executable project that runs in a 3rd party android terminal and helps the user of the android phone make everyday decisions.
