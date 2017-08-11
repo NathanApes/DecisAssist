@@ -29,7 +29,7 @@ all: DecisAssist.exe
 DecisAssist.exe: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cygwin C Linker'
-	gcc  -o "DecisAssist.exe" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -m64 -o "DecisAssist.exe" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
