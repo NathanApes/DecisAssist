@@ -1,1 +1,1 @@
-A personal C executable project that runs in a 3rd party android terminal and helps the user of the android phone make everyday decisions.
+A personal C executable project that uses audio to transcribe and analyze to show the user a wise decision.

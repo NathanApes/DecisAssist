@@ -4,13 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/Main.c 
+../src/Listener.c \
+../src/Main.c \
+../src/Responder.c 
 
 OBJS += \
-./src/Main.o 
+./src/Listener.o \
+./src/Main.o \
+./src/Responder.o 
 
 C_DEPS += \
-./src/Main.d 
+./src/Listener.d \
+./src/Main.d \
+./src/Responder.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
